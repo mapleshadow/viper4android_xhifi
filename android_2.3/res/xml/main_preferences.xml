@@ -3,15 +3,15 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/select_configuration_title">
 
 	<PreferenceScreen android:title="@string/headset_title">
-		<intent android:action="com.vipercn.viper4android.xhifi.HEADSET" />
+		<intent android:action="com.vipercn.viper4android233.xhifi.HEADSET" />
 	</PreferenceScreen>
 
 	<PreferenceScreen android:title="@string/speaker_title">
-		<intent android:action="com.vipercn.viper4android.xhifi.SPEAKER" />
+		<intent android:action="com.vipercn.viper4android233.xhifi.SPEAKER" />
 	</PreferenceScreen>
 
 	<PreferenceScreen android:title="@string/bluetooth_title">
-		<intent android:action="com.vipercn.viper4android.xhifi.BLUETOOTH" />
+		<intent android:action="com.vipercn.viper4android233.xhifi.BLUETOOTH" />
 	</PreferenceScreen>
 
 	<PreferenceCategory android:title="@string/str_copyright" android:selectable="false" android:enabled="false"></PreferenceCategory>

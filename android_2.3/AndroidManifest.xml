@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="com.vipercn.viper4android.xhifi" android:versionCode="2101"
+	package="com.vipercn.viper4android233.xhifi" android:versionCode="2101"
 	android:versionName="2.1.0.1" android:installLocation="auto">
 
 	<uses-sdk android:minSdkVersion="10"/>
@@ -26,22 +26,22 @@
 
 		<activity android:name=".activity.DSPScreen" android:screenOrientation="nosensor">
 			<intent-filter>
-				<action android:name="com.vipercn.viper4android.xhifi.HEADSET" />
+				<action android:name="com.vipercn.viper4android233.xhifi.HEADSET" />
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 			<intent-filter>
-				<action android:name="com.vipercn.viper4android.xhifi.SPEAKER" />
+				<action android:name="com.vipercn.viper4android233.xhifi.SPEAKER" />
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 			<intent-filter>
-				<action android:name="com.vipercn.viper4android.xhifi.BLUETOOTH" />
+				<action android:name="com.vipercn.viper4android233.xhifi.BLUETOOTH" />
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 		</activity>
 
 		<service android:exported="false" android:enabled="true" android:name=".HeadsetService">
 			<intent-filter>
-				<action android:name="com.vipercn.viper4android.xhifi.HEADSET_SERVICE"/>
+				<action android:name="com.vipercn.viper4android233.xhifi.HEADSET_SERVICE"/>
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 		</service>
